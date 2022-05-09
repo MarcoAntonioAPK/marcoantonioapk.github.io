@@ -1,0 +1,69 @@
+/* Hoja de estilo para la página principal - index.html */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ****** Estilos del body ***** */ 
+body{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+/****** Estilos del header ******/
+header{
+    display: block;
+}
+header div{
+    text-align: center;
+}
+div #logo{
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+nav{
+    width: 420px;
+    margin: 0px auto;
+}
+
+nav div{
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+     text-decoration: none;
+     background-color: #000;
+     color: #FFF;
+     padding: 10px;
+     margin: 10px;
+     min-width: 360px;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #FFF;
+}
+
+/****** Estilos del main ******/
+main{
+    margin-top: 100px;
+    display: block;
+}
+/****** Estilos del footer ******/
+footer{
+    display: block;
+}
